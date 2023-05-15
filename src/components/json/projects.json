@@ -3,9 +3,9 @@
         {
             "title": "This Website",
             "icon": "",
-            "img": "src/components/images/oldwebsite.png",
-            "img1": "src/components/images/mywebsite2.png",
-            "img2": "src/components/images/thegang.jpg",
+            "img": "images/oldwebsite.png",
+            "img1": "images/mywebsite2.png",
+            "img2": "images/thegang.jpg",
             "caption": "About Page during first week of development",
             "caption1": "A more improved version of the About Page",
             "caption2": "Number 2, Felipe, and Whaley (left to right)",
@@ -13,7 +13,7 @@
             "capid": "myWebsiteCap",
             "circleid": "myWebsiteCircle",
             "shortDes": "To put my web-dev skills to the test, I created this personal website. No online templates, everything you see here is from scratch. Enjoy!",
-            "longerDes": "I developed this web-app with Javascript and React, styled it with CSS, and deployed it with AWS.",
+            "longerDes": "I developed this web-app with Javascript and React, styled it with CSS, and deployed it with Netlify.",
             "made": "5/2023 - (present)",
             "frameworks": [
                 {
@@ -26,20 +26,20 @@
                     "name": "CSS"
                 },
                 {
-                    "name": "Deployment"
+                    "name": "Netlify"
                 }
             ],
-            "website": "https://www.youtube.com/watch?v=HZvvLW67gfk&t=13s",
-            "github": "https://github.com/Amitten77/AutomatedVAR",
+            "website": "https://amitkrishnaiyer.com/",
+            "github": "https://github.com/Amitten77/my-website",
             "color": "plum",
             "tagcolor": "purple"
         },
         {
             "title": "Automated VAR",
             "icon": "",
-            "img": "src/components/images/end_goal.png",
-            "img1": "src/components/images/kmeans.png",
-            "img2": "src/components/images/houghline1.png",
+            "img": "images/end_goal.png",
+            "img1": "images/kmeans.png",
+            "img2": "images/houghline1.png",
             "caption": "The end result of our program: two lines that'll determine whether attacking player is offsides",
             "caption1": "Using k-means to determine which team a player is on",
             "caption2": "Using Houghline Transformations to identify the goal-line",

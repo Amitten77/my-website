@@ -5,7 +5,7 @@ const Home = () => {
     <>
         <div class="home-container" id="home">
             <section class="home-section">
-                <img src="src/components/images/starrysky.jpg" class="home-image"></img>
+                <img src="images/starrysky.jpg" class="home-image"></img>
                 <h1>Amit Krishnaiyer</h1>
                 <h2>University of Illinois Urbana-Champaign | Software Engineer</h2>
                 <div class="home-contact">

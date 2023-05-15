@@ -2,39 +2,39 @@
 "languages": [
     {
       "language": "Python",
-      "img": "src/components/icons/PythonColor.png"
+      "img": "icons/PythonColor.png"
     },
     {
       "language": "C++",
-      "img": "src/components/icons/C++Color.png"
+      "img": "icons/C++Color.png"
     },
     {
       "language": "Java",
-      "img": "src/components/icons/JavaColor.png"
+      "img": "icons/JavaColor.png"
     },
     {
       "language": "Typescript",
-      "img": "src/components/icons/TypescriptColor.png"
+      "img": "icons/TypescriptColor.png"
     },
     {
       "language": "bash",
-      "img": "src/components/icons/BashColor.png"
+      "img": "icons/BashColor.png"
     },
     {
       "language": "R",
-      "img": "src/components/icons/RColor.png"
+      "img": "icons/RColor.png"
     },
     {
       "language": "Solidity",
-      "img": "src/components/icons/solidityColor.png"
+      "img": "icons/solidityColor.png"
     },
     {
       "language": "Swift",
-      "img": "src/components/icons/SwiftColor.png"
+      "img": "icons/SwiftColor.png"
     },
     {
       "language": "SQL",
-      "img": "src/components/icons/SQLColor.png"
+      "img": "/icons/SQLColor.png"
     }
   ]
 }

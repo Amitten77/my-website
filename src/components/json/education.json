@@ -2,7 +2,7 @@
     "education": [
         {
             "name": "University of Illinois Urbana-Champaign",
-            "img": "src/components/images/UIUCLogo.png",
+            "img": "images/UIUCLogo.png",
             "gpa": "4.0/4.0 (unweighted)",
             "classes": [
                 {
@@ -38,7 +38,7 @@
         }, 
         {
             "name": "Thomas Jefferson High School for Science and Technology",
-            "img": "src/components/images/TJLogo.png",
+            "img": "images/TJLogo.png",
             "classes": [
                 {
                     "name": "Multivariable Calculus"

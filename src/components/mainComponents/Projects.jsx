@@ -86,8 +86,8 @@ const ProjectComponent = ({projectComponent}) => {
           <a class="image-gallery-button"><div class="circle img3" id={circleid3} onMouseOut={() => handleMouseOut(project.imgid, project.capid, project.caption, circleid3)} onMouseOver={() => handleMouseOver(project.imgid, project.img2, project.capid, project.caption2, circleid3)} onClick={() => handleCircleClick(project.imgid, project.img2, project.capid, project.caption2, circleid3, circleid1, circleid2)}></div></a>
         </div>
         <div class="project-links" style={{gridColumn: 1}}>
-          <a href={project.website} target="_blank" rel="noopener noreferrer"><img src="src/components/icons/internetBW.png"></img></a>
-          <a href={project.github} target="_blank" rel="noopener noreferrer"><img src="src/components/icons/githubBW.png"></img></a>
+          <a href={project.website} target="_blank" rel="noopener noreferrer"><img src="icons/internetBW.png"></img></a>
+          <a href={project.github} target="_blank" rel="noopener noreferrer"><img src="icons/githubBW.png"></img></a>
         </div>
         <div style={{gridColumn: 2, display: 'flex', flexDirection: 'row'}}>
           <h3>Skills Used:</h3>

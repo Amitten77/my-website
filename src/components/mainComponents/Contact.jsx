@@ -30,9 +30,9 @@ const Contact = () => {
 
         <section class="socials-section contact-section">
           <h2 class="contact-subheading">Connect with Me &#x1F91D;</h2>
-          <a href="https://github.com/Amitten77" target="_blank" rel="noopener noreferrer"><img src="src/components/icons/GithubBW.png" height="50" width="50" /></a>
-          <a href="https://www.linkedin.com/in/amit-krishnaiyer-9074901b5/" target="_blank" rel="noopener noreferrer"><img src="src/components/icons/LinkedinBW.png" height="50" width="50" /></a>
-          <a href="https://www.instagram.com/amitkrishnaiyer/" target="_blank" rel="noopener noreferrer"><img src="src/components/icons/InstagramBW.png" height="50" width="50" /></a>
+          <a href="https://github.com/Amitten77" target="_blank" rel="noopener noreferrer"><img src="icons/githubBW.png" height="50" width="50" /></a>
+          <a href="https://www.linkedin.com/in/amit-krishnaiyer-9074901b5/" target="_blank" rel="noopener noreferrer"><img src="icons/LinkedinBW.png" height="50" width="50" /></a>
+          <a href="https://www.instagram.com/amitkrishnaiyer/" target="_blank" rel="noopener noreferrer"><img src="icons/InstagramBW.png" height="50" width="50" /></a>
         </section>
       </div>
 

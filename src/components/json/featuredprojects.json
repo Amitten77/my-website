@@ -3,9 +3,9 @@
         {
             "title": "Garbage Classification Model (HackIllinois 2023 Winner)",
             "icon": "",
-            "img": "src/components/images/webapp.png",
-            "img1": "src/components/images/ImageSegmentation.png",
-            "img2": "src/components/images/awsS3.png",
+            "img": "images/webapp.png",
+            "img1": "images/ImageSegmentation.png",
+            "img2": "images/awsS3.png",
             "caption": "The front-end for our webapp",
             "caption1": "Performing Image Segmentation on a jar to filter out background and get the jar's true color",
             "caption2": "The images we stored on AWS S3 to train our model",
