@@ -1,0 +1,24 @@
+{
+    "links": [
+        {
+            "label": "HOME",
+            "tag": "home"
+        },
+        {
+            "label": "ABOUT",
+            "tag": "about"
+        },
+        {
+            "label": "PROJECTS",
+            "tag": "projects"
+        },
+        {
+            "label": "OTHER STUFF",
+            "tag": "other"
+        },
+        {
+            "label": "CONTACT ME",
+            "tag": "contact"
+        }
+    ]
+}

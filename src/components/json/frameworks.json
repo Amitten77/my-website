@@ -1,0 +1,40 @@
+{
+    "frameworks": [
+        {
+          "frame": "OpenCV",
+          "img": "src/components/icons/OpenCVColor.png"
+        },
+        {
+          "frame": "Pytorch",
+          "img": "src/components/icons/PytorchColor.png"
+        },
+        {
+          "frame": "Tensorflow",
+          "img": "src/components/icons/TensorflowColor.png"
+        },
+        {
+          "frame": "Ethers",
+          "img": "src/components/icons/EtheruemColor.png"
+        },
+        {
+          "frame": "NLTK",
+          "img": "src/components/icons/NLTKColor.png"
+        },
+        {
+          "frame": "AWS",
+          "img": "src/components/icons/AWSColor.png"
+        },
+        {
+          "frame": "React",
+          "img": "src/components/icons/reactColor.png"
+        },
+        {
+          "frame": "Selenium",
+          "img": "src/components/icons/seleniumColor.png"
+        },
+        {
+          "frame": "Pandas",
+          "img": "src/components/icons/pandasColor.png"
+        }
+      ]
+}

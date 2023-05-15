@@ -1,0 +1,39 @@
+nav {
+    background-color: transparent;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    position: fixed;
+    border-bottom: 1px solid white;
+    padding-right: 30%;
+    padding-left: 30%;
+    z-index: 1;
+    transition: background-color 0.5s ease;
+}
+
+
+
+nav.scrolled {
+    background-color: #333; /* scrolled background color */
+  }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    scroll-behavior: smooth;
+}
+
+nav a.current {
+    color: lightblue;
+}
+  
+nav a:hover {
+    border-radius: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: plum;
+    cursor: pointer;
+}

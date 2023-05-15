@@ -1,0 +1,69 @@
+{
+    "education": [
+        {
+            "name": "University of Illinois Urbana-Champaign",
+            "img": "src/components/images/UIUCLogo.png",
+            "gpa": "4.0/4.0 (unweighted)",
+            "classes": [
+                {
+                    "name": "Discrete Structures (CS 173)"
+                },
+                {
+                    "name": "Data Structures (CS 225)"
+                },
+                {
+                    "name": "Fundemental Mathematics (MATH 347)"
+                },
+                {
+                    "name": "Introduction to Combinatorics (MATH 413)"
+                },
+                {
+                    "name": "Nonlinear Programming (MATH 484)"
+                },
+                {
+                    "name": "Statistics and Probability I (STAT 400)"
+                },
+                {
+                    "name": "Introduction to Astrophysics (ASTR 210)"
+                },
+                {
+                    "name": "Computing in Astronomy (ASTR 310)"
+                }
+
+            ],
+            "des": "Ranked #5 for Computer Science in the US (U.S. News 2023)",
+            "major": "B.S. in Computer Science + Mathematics, minor in Astronomy",
+            "graduation": "2022-2025",
+            "url": "https://cs.illinois.edu/"
+        }, 
+        {
+            "name": "Thomas Jefferson High School for Science and Technology",
+            "img": "src/components/images/TJLogo.png",
+            "classes": [
+                {
+                    "name": "Multivariable Calculus"
+                },
+                {
+                    "name": "Linear Algebra"
+                },
+                {
+                    "name": "Artifical Intelligence I"
+                },
+                {
+                    "name": "Artificial Intelligence II"
+                },
+                {
+                    "name": "Machine Learning I"
+                },
+                {
+                    "name": "Advanced Astronomy: The Universe"
+                }
+            ],
+            "des": "Ranked #1 High School in the US (U.S. News 2022)",
+            "major": "High School",
+            "graduation": "2018-2022",
+            "url": "https://tjhsst.fcps.edu/",
+            "gpa": "4.41/4.0 (weighted)"
+        }
+    ]
+}

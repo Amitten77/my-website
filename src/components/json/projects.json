@@ -1,0 +1,73 @@
+{
+    "projects": [
+        {
+            "title": "This Website",
+            "icon": "",
+            "img": "src/components/images/oldwebsite.png",
+            "img1": "src/components/images/mywebsite2.png",
+            "img2": "src/components/images/thegang.jpg",
+            "caption": "About Page during first week of development",
+            "caption1": "A more improved version of the About Page",
+            "caption2": "Number 2, Felipe, and Whaley (left to right)",
+            "imgid": "myWebsiteImg",
+            "capid": "myWebsiteCap",
+            "circleid": "myWebsiteCircle",
+            "shortDes": "To put my web-dev skills to the test, I created this personal website. No online templates, everything you see here is from scratch. Enjoy!",
+            "longerDes": "I developed this web-app with Javascript and React, styled it with CSS, and deployed it with AWS.",
+            "made": "5/2023 - (present)",
+            "frameworks": [
+                {
+                    "name": "Javascript"
+                },
+                {
+                    "name": "React"
+                },
+                {
+                    "name": "CSS"
+                },
+                {
+                    "name": "Deployment"
+                }
+            ],
+            "website": "https://www.youtube.com/watch?v=HZvvLW67gfk&t=13s",
+            "github": "https://github.com/Amitten77/AutomatedVAR",
+            "color": "plum",
+            "tagcolor": "purple"
+        },
+        {
+            "title": "Automated VAR",
+            "icon": "",
+            "img": "src/components/images/end_goal.png",
+            "img1": "src/components/images/kmeans.png",
+            "img2": "src/components/images/houghline1.png",
+            "caption": "The end result of our program: two lines that'll determine whether attacking player is offsides",
+            "caption1": "Using k-means to determine which team a player is on",
+            "caption2": "Using Houghline Transformations to identify the goal-line",
+            "imgid": "AutomatedvarImg",
+            "capid": "AutomatedvarCap",
+            "circleid": "AutomatedvarCircle",
+            "shortDes": "For my High School Senior Project, I created a fully automated system that can determine whether a soccer player is offsides from a video of play.",
+            "longerDes": "Check out my Github Repository if you'd like to see a more detailed explanation on how I did this. But anyways, I first used yolov5's common object detection model to detect all the players. I then used Image Segmentation and k-means to grab the color of all the players' jerseys so that I could figure out the attackers and defenders. Next, I trained a custom model myself that can track the ball in the video so that I can find the exact moment the attacking player passes the ball. Finally, I use Hough-Line Transformations to find the goal-line so that my program can draw the offsides lines parallel to the goal-line.",
+            "made": "8/2021 - 5/2022",
+            "frameworks": [
+                {
+                    "name": "OpenCV"
+                },
+                {
+                    "name": "Tensorflow"
+                },
+                {
+                    "name": "Image Segmention"
+                },
+                {
+                    "name": "K-Means"
+                }
+            ],
+            "website": "https://www.youtube.com/watch?v=HZvvLW67gfk&t=13s",
+            "github": "https://github.com/Amitten77/AutomatedVAR",
+            "color": "lightgreen",
+            "tagcolor": "green"
+        }
+
+    ]
+}

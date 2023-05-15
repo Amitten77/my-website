@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /*font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;*/
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+
+
+.root {
+  width: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.word-link {
+  text-decoration: none;
+  color: black
+}
+
+.word-link:visited {
+  color: purple;
+}

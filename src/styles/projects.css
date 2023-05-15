@@ -1,0 +1,108 @@
+.projects-container {
+    background-color: #ebeeee;
+    height: 250vh;
+}
+
+.full-project-comp {
+    background-color: lightblue;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 10% auto auto;
+    height: 32rem;
+    margin-top: 3rem;
+    border-radius: 15px;
+}
+
+.project-header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 200%;
+}
+
+.featured-project-overall {
+    padding-top: 3rem;
+    margin-bottom: 7rem;
+}
+
+.circle{
+    border-radius: 50%;
+    border: 1px solid grey;
+    width: 20px;
+    height: 20px;
+    margin-right: .5rem;
+}
+
+.hover {
+    background-color: rgba(150, 150, 150, .3);
+}
+
+.fill {
+    background-color: rgba(150, 150, 150, 1);
+}
+
+.tag-component {
+    background-color: gold;
+    border-radius: 10%;
+    margin-left: 1rem;
+    height: 40%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    transition: margin .5s ease-in-out;
+    color: #EEEEEE;
+}
+
+.tag-component:hover {
+    margin-top: -.5rem;
+}
+
+.full-project-title {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 1rem;
+    text-align: center;
+}
+
+.full-project-img {
+    grid-column: 1;
+    grid-row: 2;
+    width: 35rem;
+    height: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.full-project-caption {
+    grid-column: 1;
+    display: inline-block; /* allows the margin property to center the div */
+    margin: 0 auto; /* centers the div horizontally within the parent */
+    margin-bottom: 1rem;
+}
+
+.full-project-date {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 1rem;
+    text-align: center;
+}
+
+.full-project-des {
+    grid-column: 2; 
+    grid-row: 2;
+    padding-top: 2rem;
+    margin-right: 3rem;
+}
+
+.button-control {
+    text-align: center;
+    display: inline-block; /* allows the margin property to center the div */
+    margin: 0 auto; /* centers the div horizontally within the parent */
+}
+
+.project-links {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,56 @@
+.home-image {
+    width: 100%;
+    object-fit: cover;
+    height: 55rem;
+}
+
+.home-container {
+    height: 100vh;
+}
+
+.home-section h1 {
+    color: white;
+    position: absolute;
+    font: 80px/1.1em 'opensans-bold', sans-serif;
+    font-weight: 600;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+
+.home-section h2 {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.home-contact {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-arrow {
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.icon {
+    fill: lightblue;
+    margin-left: 1rem;
+}
+
+a:hover .icon { /* Fix here */
+    fill: plum;
+    transition-duration: .7s;
+}

@@ -1,0 +1,36 @@
+{
+    "orgs": [
+        {
+          "org": "John Deere",
+          "description": "Data Science Intern",
+          "time": "5/2023-(present)",
+          "img": "src/components/icons/JohnDeereColor.png",
+          "url": "https://www.deere.com/en/index.html",
+          "color": "#61E276"
+        },
+        {
+          "org": "Illini Blockchain",
+          "description": "Developer Lead",
+          "img": "src/components/icons/IlliniBlockchainColor.png",
+          "time": "5/2023-(present)",
+          "url": "https://illiniblockchain.com/",
+          "color": "#62AEF9"
+        },
+        {
+          "org": "Illinois Consulting Group",
+          "description": "Consultant",
+          "img": "src/components/icons/ICGColor.png",
+          "time": "8/2022-(present)",
+          "url": "https://icgillinois.web.illinois.edu/",
+          "color": "#FCC47B"
+        },
+        {
+          "org": "Boston University",
+          "description": "Student Researcher",
+          "img": "src/components/icons/BUColor.png",
+          "time": "3/2020-8/2021",
+          "url": "https://www.bu.edu/",
+          "color": "#FFA4A4"
+        }
+      ]
+}

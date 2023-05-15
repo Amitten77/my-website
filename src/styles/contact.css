@@ -1,0 +1,41 @@
+.contact-container {
+    background-color: rgb(230, 230, 230);
+    height: 60vh;
+}
+
+.download {
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    background-color: #11abb0;
+    height: 3rem;
+    width: 15rem;
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: 800;
+}
+
+.download:hover {
+    background-color: rgba(17, 171, 176, .5);
+}
+
+.contact-div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.contact-section {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.contact-heading {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.contact-subheading {
+    margin-bottom: 1rem;
+}
