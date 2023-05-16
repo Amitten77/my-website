@@ -13,10 +13,6 @@
       "img": "icons/JavaColor.png"
     },
     {
-      "language": "Typescript",
-      "img": "icons/TypescriptColor.png"
-    },
-    {
       "language": "bash",
       "img": "icons/BashColor.png"
     },
@@ -35,6 +31,22 @@
     {
       "language": "SQL",
       "img": "/icons/SQLColor.png"
+    },
+    {
+      "language": "Typescript",
+      "img": "icons/TypescriptColor.png"
+    },
+    {
+      "language": "HTML",
+      "img": "/icons/HTMLicon.png"
+    },
+    {
+      "language": "Javascript",
+      "img": "/icons/JSIcon.png"
+    },
+    {
+      "language": "CSS",
+      "img": "/icons/CSSLogo.png"
     }
   ]
 }

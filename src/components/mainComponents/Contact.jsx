@@ -36,7 +36,7 @@ const Contact = () => {
         </section>
       </div>
 
-      <h1 class="contact-heading" style={{paddingTop: "1rem"}}>I hope you enjoyed learning about me!</h1>
+      <h1 class="contact-heading contact-heading-bottom" style={{paddingTop: "1rem"}}>I hope you enjoyed learning about me!</h1>
     </main>
   )
 }
