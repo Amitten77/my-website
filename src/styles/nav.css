@@ -12,6 +12,8 @@ nav {
     padding-left: 30%;
     z-index: 1;
     transition: background-color 0.5s ease;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 
@@ -25,6 +27,7 @@ nav a {
     text-decoration: none;
     font-weight: 900;
     scroll-behavior: smooth;
+    margin-right: 1rem;
 }
 
 nav a.current {

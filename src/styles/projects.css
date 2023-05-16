@@ -1,6 +1,7 @@
 .projects-container {
-    background-color: #ebeeee;
-    height: 250vh;
+    background-color: rgb(200, 200, 200);
+    min-height: 250vh;
+    overflow: auto;
 }
 
 .full-project-comp {
@@ -9,9 +10,11 @@
     display: grid;
     grid-template-columns: 50% auto;
     grid-template-rows: 10% auto auto;
-    height: 32rem;
+    min-height: 32rem;
     margin-top: 3rem;
     border-radius: 15px;
+    overflow: hidden;
+    color: rgb(8, 8, 8);
 }
 
 .project-header {
@@ -51,7 +54,8 @@
     display: flex;
     align-items: center;
     transition: margin .5s ease-in-out;
-    color: #EEEEEE;
+    color: black;
+    text-align: center;
 }
 
 .tag-component:hover {
@@ -65,11 +69,19 @@
     text-align: center;
 }
 
+.full-project-img-div {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.button-control {
+    margin-left: 45%;
+}
 .full-project-img {
     grid-column: 1;
     grid-row: 2;
-    width: 35rem;
-    height: 20rem;
+    width: 80%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
@@ -96,13 +108,16 @@
     margin-right: 3rem;
 }
 
-.button-control {
-    text-align: center;
-    display: inline-block; /* allows the margin property to center the div */
-    margin: 0 auto; /* centers the div horizontally within the parent */
-}
 
 .project-links {
     margin-left: 1rem;
     margin-bottom: 1rem;
+}
+
+.project-icon {
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-icon:hover {
+    transform: translateY(-5px);
 }

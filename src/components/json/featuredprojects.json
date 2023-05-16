@@ -12,8 +12,8 @@
             "imgid": "HackIllinois2023Img",
             "capid": "HackIllinois2023Cap",
             "circleid": "HackIllinois2023Circle",
-            "shortDes": "This project won one of six grand prizes at HackIllinois 2023, UIUC's premiere hackathon with 750 participants this year. Working in a team of 4, we created a web-app where the user can upload images or descriptions of their trash, and our program will classify the trash into one of six categories: glass, compost, paper, hazardous waste, plastic and soft metals, residual waste",
-            "longerDes": "I worked on the Computer Vision model for sorting the images of trash, Nancy worked on the frontend of our project, and Swathi + Robert worked on the Natural Language Processing Model for sorting descriptions of trash. I used AWS S3 to store large sets of training images, and AWS EC2 to train my Tensorflow Image Classification models to minimize the overhead on my computer. We also had to sort the glass bottles by color, so I used image segmentation to get the color of the glass. For our NLTK model, we used named entity recognition, neural networks, and synonyms to help our program understand the descriptions of trash.",
+            "shortDes": "This project won one of six grand prizes at HackIllinois 2023, UIUC's premiere hackathon with <bold>750 participants<bold> this year. Working in a team of 4, we created a web-app where the user can upload images or descriptions of their trash, and our program will classify the trash into one of six categories: glass, compost, paper, hazardous waste, plastic and soft metals, residual waste",
+            "longerDes": "I worked on the <bold>Computer Vision<bold> model for sorting the images of trash, Nancy worked on the frontend of our project, and Swathi + Robert worked on the Natural Language Processing Model for sorting descriptions of trash. I used <bold>AWS S3<bold> to store large sets of training images, and <bold>AWS EC2<bold> to train my <bold>Tensorflow Image Classification<bold> models to minimize the overhead on my computer. We also had to sort the glass bottles by color, so I used <bold>image segmentation<bold> to get the color of the glass. For our NLTK model, we used named entity recognition, <bold>neural networks<bold>, and synonyms to help our program understand the descriptions of trash.",
             "made": "2/24/2023 - 2/26/2023",
             "frameworks": [
                 {
@@ -31,8 +31,8 @@
             ],
             "website": "https://devpost.com/software/garbage-classification-model",
             "github": "https://github.com/Amitten77/HackIllinois2023",
-            "color": "lightblue",
-            "tagcolor": "#005AB5"
+            "color": "rgb(136, 142, 181)",
+            "tagcolor": "#616895"
         }
     ]
 }

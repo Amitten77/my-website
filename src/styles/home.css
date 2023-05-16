@@ -8,6 +8,12 @@
     height: 100vh;
 }
 
+
+.home-section {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 .home-section h1 {
     color: white;
     position: absolute;

@@ -13,7 +13,7 @@
             "capid": "myWebsiteCap",
             "circleid": "myWebsiteCircle",
             "shortDes": "To put my web-dev skills to the test, I created this personal website. No online templates, everything you see here is from scratch. Enjoy!",
-            "longerDes": "I developed this web-app with Javascript and React, styled it with CSS, and deployed it with Netlify.",
+            "longerDes": "I developed this web-app with Javascript and React, styled it with CSS, and deployed it with <bold>Netlify<bold>. There were two parts that were particularly difficult: figuring out the right color/image scheme and also making my website responsive. For color schemes, I just tried out many different combinations, and even did some research on <bold>Gestalt Psychology<bold>. For a responsive website, I used <bold>media queries<bold> and also strong <bold>CSS practice<bold>. After creating this site I have a much greater appreciation for frontend developers!",
             "made": "5/2023 - (present)",
             "frameworks": [
                 {
@@ -31,8 +31,8 @@
             ],
             "website": "https://amitkrishnaiyer.com/",
             "github": "https://github.com/Amitten77/my-website",
-            "color": "plum",
-            "tagcolor": "purple"
+            "tagcolor": "rgb(84, 126, 139)",
+            "color": "rgb(85, 151, 170)"
         },
         {
             "title": "Automated VAR",
@@ -46,8 +46,8 @@
             "imgid": "AutomatedvarImg",
             "capid": "AutomatedvarCap",
             "circleid": "AutomatedvarCircle",
-            "shortDes": "For my High School Senior Project, I created a fully automated system that can determine whether a soccer player is offsides from a video of play.",
-            "longerDes": "Check out my Github Repository if you'd like to see a more detailed explanation on how I did this. But anyways, I first used yolov5's common object detection model to detect all the players. I then used Image Segmentation and k-means to grab the color of all the players' jerseys so that I could figure out the attackers and defenders. Next, I trained a custom model myself that can track the ball in the video so that I can find the exact moment the attacking player passes the ball. Finally, I use Hough-Line Transformations to find the goal-line so that my program can draw the offsides lines parallel to the goal-line.",
+            "shortDes": "For my High School Senior Project, I created a <bold>fully automated<bold> system that can determine whether a soccer player is offsides from a video of play.",
+            "longerDes": "Check out my Github Repository if you'd like to see a more detailed explanation on how I did this. But anyways, I first used <bold>yolov5's<bold> common object detection model to detect all the players. I then used <bold>Image Segmentation<bold> and <bold>k-means<bold> to grab the color of all the players' jerseys so that I could figure out the attackers and defenders. Next, I trained a <bold>custom model<bold> myself that can track the ball in the video so that I can find the exact moment the attacking player passes the ball. Finally, I use <bold>Hough-Line Transformations<bold> to find the goal-line so that my program can draw the offsides lines parallel to the goal-line.",
             "made": "8/2021 - 5/2022",
             "frameworks": [
                 {
@@ -65,8 +65,8 @@
             ],
             "website": "https://www.youtube.com/watch?v=HZvvLW67gfk&t=13s",
             "github": "https://github.com/Amitten77/AutomatedVAR",
-            "color": "lightgreen",
-            "tagcolor": "green"
+            "tagcolor": "#665d79",
+            "color": "rgb(126, 113, 131)"
         }
 
     ]

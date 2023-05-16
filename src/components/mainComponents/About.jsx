@@ -48,7 +48,7 @@ const About = () => {
               return (
                 <>
                   <div class="language-icon">
-                    <img src={language.img} height="50" width="50"></img>
+                    <img src={language.img}></img>
                     <p>{language.language}</p>
                   </div>
                 </>

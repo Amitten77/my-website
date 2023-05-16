@@ -4,7 +4,7 @@ import '../../styles/other.css'
 const Other = () => {
   return (
     <main class="other-container" id="other stuff">
-      <h1 class="other-header">Other cool stuff</h1>
+      <h1 class="other-header">Other Cool Stuff &#128640;</h1>
       <section class="other-section">
 
         <section class="ted-section other-comp">
