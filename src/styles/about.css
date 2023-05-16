@@ -66,7 +66,7 @@
 .language-icon {
     margin-right: 1rem;
     margin-bottom: 1rem;
-    transition: margin .5s ease-in-out;
+    transition: margin .3s ease-in-out;
 }
 
 .language-icon img {
@@ -96,12 +96,12 @@
 
 .framework-icon {
     margin: 1rem;
-    transition: margin .5s ease-in-out;
+    transition: transform .3s ease-in-out;
 }
 
 
 .framework-icon:hover {
-    margin-top: -.1rem;
+    transform: translateY(-7px);
 }
 
 .organization-header {
@@ -185,7 +185,7 @@
 }
 
 .school-icon:hover {
-    margin-top: -.5rem;
+    margin-top: -5px;
 }
 
 .school-comp {

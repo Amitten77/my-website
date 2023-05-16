@@ -76,13 +76,15 @@ const Nav = () => {
 
   return (
     <nav>
-        {links.map(link => {
-            return (
-            <div>
-              <a href={"#" + link.label.toLowerCase()} class={link.tag + "nav"}>{link.label}</a>
-            </div>
-            )
-        })}
+        <div class="navbar">
+          {links.map(link => {
+              return (
+              <div>
+                <a href={"#" + link.label.toLowerCase()} class={link.tag + "nav"}>{link.label}</a>
+              </div>
+              )
+          })}
+        </div>
     </nav>
   )
 }

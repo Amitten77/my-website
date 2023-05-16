@@ -1,6 +1,7 @@
 .contact-container {
     background-color: rgb(230, 230, 230);
-    height: 60vh;
+    min-height: 60vh;
+    overflow: auto;
 }
 
 .download {
