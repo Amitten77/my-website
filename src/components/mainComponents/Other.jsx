@@ -19,7 +19,7 @@ const Other = () => {
 
         <section class="BU-section other-comp">
           <img src="images/BU-Setup.png" width="400" height="200" class="other-img"></img>
-          <p>Our setup for our research at Boston University, where we used Software-Defined Radio to create a framework for interpreting IoT signals. Learn more about our project <a href="src/components/AmazonFSK.pdf" target="_blank" class="word-link"><span class="bold">here</span></a></p>
+          <p>Our setup for our research at Boston University, where we used Software-Defined Radio to create a framework for interpreting IoT signals. Learn more about our project <a href="AmazonFSK.pdf" target="_blank" class="word-link"><span class="bold">here</span></a></p>
         </section>
 
 

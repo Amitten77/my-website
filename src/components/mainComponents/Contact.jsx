@@ -10,7 +10,7 @@ const Contact = () => {
       <div class="contact-div">
         <section class="resume-section contact-section">
           <h2 class="contact-subheading">Judge Me &#9878;</h2>
-          <a href="src/components/AmitKrishnaiyerResume4_5_2023.pdf" download="AmitKrishnaiyerResume4_5_2023.pdf" class="download"><p class="download">Download My Resume</p></a>
+          <a href="AmitKrishnaiyerResume4_5_2023.pdf" download="AmitKrishnaiyerResume4_5_2023.pdf" class="download"><p class="download">Download My Resume</p></a>
           <p>Last Updated: 4/5/2023</p>
         </section>
 
