@@ -31,18 +31,18 @@
 
 .circle{
     border-radius: 50%;
-    border: 1px solid grey;
+    border: 2px solid black;
     width: 20px;
     height: 20px;
     margin-right: .5rem;
 }
 
 .hover {
-    background-color: rgba(150, 150, 150, .3);
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .fill {
-    background-color: rgba(150, 150, 150, 1);
+    background-color: rgba(0, 0, 0);
 }
 
 .tag-component {

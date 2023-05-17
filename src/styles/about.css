@@ -48,7 +48,7 @@
 }
 
 .language-header {
-    width: 70%;
+    width: 80%;
 }
 
 
@@ -58,21 +58,22 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     width: 80%;
-    padding: 1rem;
+    height: auto;
+    padding-right: 1rem;
     border-radius: 5%;
     box-shadow: 5px 5px 10px 2px rgba(255,255,255,.8);
 }
 
 .language-icon {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 2rem;
+    margin: 1rem;
     transition: margin .3s ease-in-out;
+    font-size: 1.2vw;
+    text-align: center;
 }
 
 .language-icon img {
-    height: auto;
-    width: 80%;
+    height: 3vw;
+    width: 3vw;
 }
 
 .language-icon:hover {
@@ -98,6 +99,13 @@
 .framework-icon {
     margin: 1rem;
     transition: transform .3s ease-in-out;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.framework-icon img {
+    height: 3vw;
+    width: 3vw;
 }
 
 
@@ -136,8 +144,8 @@
     top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
-    height: 7rem;
-    width: 7rem;
+    height: 8vw;
+    width: 8vw;
     transition: margin 0.3s ease-in-out;
 }
 
@@ -168,14 +176,16 @@
     height: 15rem;
     border-radius: 20px;
     position: relative;
+    font-size: 1.2vw;
+    padding-bottom: 2rem;
 }
 
 .school-icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 11rem;
-    width: 10rem;
+    height: 11vw;
+    width: 10vw;
     grid-column: 2;
     transition: margin 0.3s ease-in-out;
     position: absolute;
@@ -196,5 +206,37 @@
 .about-cards {
     display: grid;
     grid-template-columns: auto auto auto;
+}
+
+
+
+@media (max-width: 1058px) {
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .about-header {
+        color: white;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .about-image {
+        border: 10px outset whitesmoke;
+        margin-top: 4rem;
+    }
+
+    .about-description {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .school {
+        width: 90%
+    }
 }
 

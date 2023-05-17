@@ -12,7 +12,7 @@
             "imgid": "myWebsiteImg",
             "capid": "myWebsiteCap",
             "circleid": "myWebsiteCircle",
-            "shortDes": "To put my web-dev skills to the test, I created this personal website. No online templates, everything you see here is from scratch. Enjoy!",
+            "shortDes": "To put my web-dev skills to the test, I created this personal website. No online templates, everything you see here is <bold>from scratch<bold>. Enjoy!",
             "longerDes": "I developed this web-app with Javascript and React, styled it with CSS, and deployed it with <bold>Netlify<bold>. There were two parts that were particularly difficult: figuring out the right color/image scheme and also making my website responsive. For color schemes, I just tried out many different combinations, and even did some research on <bold>Gestalt Psychology<bold>. For a responsive website, I used <bold>media queries<bold> and also strong <bold>CSS practice<bold>. After creating this site I have a much greater appreciation for frontend developers!",
             "made": "5/2023 - (present)",
             "frameworks": [
@@ -35,7 +35,7 @@
             "color": "rgb(85, 151, 170)"
         },
         {
-            "title": "Automated VAR",
+            "title": "Automated Video Assistant Referee (VAR)",
             "icon": "",
             "img": "images/end_goal.png",
             "img1": "images/kmeans.png",
