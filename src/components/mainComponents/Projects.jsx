@@ -124,7 +124,7 @@ const ProjectComponent = ({projectComponent}) => {
           <a href={project.website} target="_blank" rel="noopener noreferrer"><img src="icons/internetBW.png" class="project-icon"></img></a>
           <a href={project.github} target="_blank" rel="noopener noreferrer"><img src="icons/githubBW.png" class="project-icon"></img></a>
         </div>
-        <div style={{gridColumn: 2, display: 'flex', flexDirection: 'row'}}>
+        <div class="project-tags" style={{display: 'flex', flexDirection: 'row'}}>
           <h3>Skills Used:</h3>
           {tags.map(tag => {
             return (<TagComponent tagName={tag.name} color={project.tagcolor}></TagComponent>)

@@ -46,19 +46,19 @@ function scrollFunction() {
     aboutlabel.classList.remove('current');
   }
 
-  if (scrollPercentage > 350 && scrollPercentage < 600) {
+  if (scrollPercentage > 350 && scrollPercentage <= 600) {
     projectslabel.classList.add('current');
   } else {
     projectslabel.classList.remove('current');
   }
 
-  if (scrollPercentage > 600 && scrollPercentage < 700) {
+  if (scrollPercentage > 600 && scrollPercentage <= 730) {
     otherlabel.classList.add('current');
   } else {
     otherlabel.classList.remove('current');
   }
 
-  if (scrollPercentage > 700) {
+  if (scrollPercentage > 730) {
     contactlabel.classList.add('current');
   } else {
     contactlabel.classList.remove('current');
@@ -70,6 +70,29 @@ function scrollFunction() {
 
 
 const Nav = () => {
+
+
+
+  const handleNav = () => {
+    var image = document.querySelector('.menu');
+    var src = image.data;
+    if (src == "menu") {
+      var navpage = document.querySelector('.nav-page');
+      var overlay = document.querySelector('.overlay');
+      overlay.classList.add("blur-page");
+      navpage.classList.add("no-blur");
+      navpage.style.display = 'flex';
+      image.src = "icons/whitex.png";
+      image.data = "x";
+    } else {
+      var navpage = document.querySelector('.nav-page');
+      var overlay = document.querySelector('.overlay');
+      navpage.style.display = 'none';
+      image.src = "icons/menu.png";
+      image.data = "menu";
+      overlay.classList.remove("blur-page");
+    }
+  }
 
 
   window.onscroll = function() {scrollFunction()};
@@ -85,6 +108,14 @@ const Nav = () => {
               )
           })}
         </div>
+        <img src="icons/menu.png" height="40" width="40" className="menu" onClick={handleNav} data="menu"></img>
+        <section class="nav-page">{links.map(link => {
+          return (
+            <div>
+              <a href={"#" + link.label.toLowerCase()} onClick={handleNav}>{link.label}</a>
+            </div>
+          )
+        })}</section>
     </nav>
   )
 }

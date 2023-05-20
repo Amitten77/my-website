@@ -8,9 +8,11 @@ function App() {
 
   return (
     <>
-    <Nav/>
-    <Main/>
-    <Footer />
+      <Nav/>
+    <div class="overlay">
+      <Main/>
+      <Footer />
+    </div>
     </>
   )
 }

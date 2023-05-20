@@ -24,3 +24,15 @@
 .word-link:visited {
   color: purple;
 }
+
+.freeze-scrolling {
+  overflow: hidden;
+}
+
+.blur-page {
+  filter: blur(5px); /* Adjust the blur radius as needed */
+}
+
+.no-blur {
+  filter: none; /* Adjust the blur radius as needed */
+}

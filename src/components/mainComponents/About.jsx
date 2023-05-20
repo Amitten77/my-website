@@ -40,56 +40,57 @@ const About = () => {
       </section>
 
 
-    <div class="about-cards">
-        <section class="language-overall">
-          <h3 class="language-header aboutpage-header">Languages</h3>
-          <section class="language-section">
-            {languages.map(language => {
-              return (
-                <>
-                  <div class="language-icon">
-                    <img src={language.img}></img>
-                    <p>{language.language}</p>
-                  </div>
-                </>
-              )
-            })}
+      
+      <div class="about-cards">
+          <section class="language-overall">
+            <h3 class="language-header aboutpage-header">Languages</h3>
+            <section class="language-section">
+              {languages.map(language => {
+                return (
+                  <>
+                    <div class="language-icon">
+                      <img src={language.img}></img>
+                      <p>{language.language}</p>
+                    </div>
+                  </>
+                )
+              })}
+            </section>
           </section>
-        </section>
 
 
-        <div class="frameworks-overall">
-          <h3 class="aboutpage-header frameworks-header">Best Frameworks</h3>
-          <div class="frameworks-section">
-            {frameworks.map(framework => {
-              return (
-                <div class="framework-icon">
-                  <img src={framework.img} height="50" width="50" class="framework-icon-img"></img>
-                  <p>{framework.frame}</p>
-                </div>
-              )
-            })}
+          <div class="frameworks-overall">
+            <h3 class="aboutpage-header frameworks-header">Best Frameworks</h3>
+            <div class="frameworks-section">
+              {frameworks.map(framework => {
+                return (
+                  <div class="framework-icon">
+                    <img src={framework.img} height="50" width="50" class="framework-icon-img"></img>
+                    <p>{framework.frame}</p>
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+
+
+
+          <div class="organization-overall">
+            <h3 class="aboutpage-header organization-header">Organizations</h3>
+              <div class="organization-section">
+              {orgs.map(org => {
+                return (
+                  <div class="organization-icon">
+                    <h3 style={{gridColumn: 2, marginTop: "1rem"}}>{org.org}</h3>
+                    <p style={{gridColumn: 2}}>{org.description}</p>
+                    <p style={{gridColumn: 2}}>{org.time}</p>
+                    <a href={org.url} target="_blank" rel="noopener noreferrer" style={{gridColumn: 1}}><img src={org.img} height="100" width="100" className='org-img'></img></a>
+                  </div>
+                )
+              })}
+            </div>
           </div>
         </div>
-
-
-
-        <div class="organization-overall">
-          <h3 class="aboutpage-header organization-header">Organizations</h3>
-            <div class="organization-section">
-            {orgs.map(org => {
-              return (
-                <div class="organization-icon">
-                  <h3 style={{gridColumn: 2, marginTop: "1rem"}}>{org.org}</h3>
-                  <p style={{gridColumn: 2}}>{org.description}</p>
-                  <p style={{gridColumn: 2}}>{org.time}</p>
-                  <a href={org.url} target="_blank" rel="noopener noreferrer" style={{gridColumn: 1}}><img src={org.img} height="100" width="100" className='org-img'></img></a>
-                </div>
-              )
-            })}
-          </div>
-        </div>
-      </div>
     
 
     <section class="education-overall">

@@ -20,6 +20,7 @@ nav {
     transition: background-color 0.5s ease;
     overflow: hidden;
     white-space: nowrap;
+    overflow: visible; /* Content will flow out of the div */
 }
 
 
@@ -45,4 +46,42 @@ nav a:hover {
     text-decoration: none;
     color: plum;
     cursor: pointer;
+}
+
+.menu {
+    display: none;
+}
+
+.nav-page {
+    display: none;
+}
+
+
+@media (max-width: 750px) {
+    .navbar {
+        display: none;
+    }
+
+    .nav-page {
+        display: none;
+        background-color: grey;
+        height: 50vh;
+        width: 100vw;
+        top: 0;
+        transform: translateY(20rem);
+        filter: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+
+
+    .menu {
+        display: flex;
+        margin-right: 5%;
+        cursor: pointer;
+    }
 }
