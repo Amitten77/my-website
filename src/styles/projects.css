@@ -451,6 +451,10 @@
         margin-left: 1rem;
         font-size: 14px;
         margin-bottom: 3rem;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 3rem;
+        
     }
 
 }
