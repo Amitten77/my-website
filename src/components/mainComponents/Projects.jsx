@@ -39,26 +39,30 @@ function handleCircleClick(imgid, srcimg, capid, caption, thisCircle, otherCircl
 }
 
 function handleMouseOver(imgid, srcimg, capid, caption, thisCircle) {
-  const myImage = document.getElementById(imgid);
-  myImage.src = srcimg;
-  const myParagraph = document.getElementById(capid);
-  myParagraph.textContent = caption;
+  if (window.innerWidth > 660) {
+    const myImage = document.getElementById(imgid);
+    myImage.src = srcimg;
+    const myParagraph = document.getElementById(capid);
+    myParagraph.textContent = caption;
 
-  const myCircle = document.getElementById(thisCircle);
-  myCircle.classList.toggle("hover");
+    const myCircle = document.getElementById(thisCircle);
+    myCircle.classList.toggle("hover");
+  }
 }
 
 function handleMouseOut(imgid, capid, caption, thisCircle) {
-  const myImage = document.getElementById(imgid);
-  myImage.src = myImage.alt;
-  const myParagraph = document.getElementById(capid);
-  if (myParagraph.data == undefined) {
-    myParagraph.textContent = caption;
-  } else {
-    myParagraph.textContent = myParagraph.data;
-  }
-  const myCircle = document.getElementById(thisCircle);
-  myCircle.classList.toggle("hover");
+  if (window.innerWidth > 660) {
+    const myImage = document.getElementById(imgid);
+    myImage.src = myImage.alt;
+    const myParagraph = document.getElementById(capid);
+    if (myParagraph.data == undefined) {
+      myParagraph.textContent = caption;
+    } else {
+      myParagraph.textContent = myParagraph.data;
+    }
+    const myCircle = document.getElementById(thisCircle);
+    myCircle.classList.toggle("hover");
+}
 }
 
 const ProjectComponent = ({projectComponent}) => {
