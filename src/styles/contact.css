@@ -1,7 +1,8 @@
 .contact-container {
     background-color: rgb(230, 230, 230);
-    min-height: 60vh;
+    min-height: 20vh;
     overflow: auto;
+    padding-bottom: 5rem;
 }
 
 .download {

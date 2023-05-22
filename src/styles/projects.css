@@ -1,7 +1,8 @@
 .projects-container {
     background-color: rgb(200, 200, 200);
-    min-height: 250vh;
+    min-height: 100vh;
     overflow: auto;
+    padding-bottom: 5rem;
 }
 
 .full-project-comp {

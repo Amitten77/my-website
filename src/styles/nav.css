@@ -62,18 +62,44 @@ nav a:hover {
         display: none;
     }
 
-    @keyframes example {
+    @keyframes appear {
         from {
             max-height: 0;
+            display: none;
           }
           to {
             max-height: 100%;
+            display: flex;
           }
       }
 
+      @keyframes disappear {
+        from {
+            opacity: 1;
+            display: flex;
+        }
+        to {
+            opacity: 0;
+            display: none;
+        }
+      }
+
+    .appear-ani {
+        animation-name: appear;
+    }
+
+    .disappear-ani {
+        animation-name: disappear;
+    }
+      
+    .flex {
+        display: flex;
+    }
+
+
     .nav-page {
-        display: none;
-        background-color: rgb(136, 142, 181);
+        display: hidden;
+        background-color: rgb(87, 94, 139);
         height: auto;
         width: 100vw;
         position: fixed;
@@ -81,7 +107,6 @@ nav a:hover {
         filter: none;
         flex-direction: column;
         text-align: center;
-        animation-name: example;
         animation-duration: 1.5s;
         overflow: hidden;
     }

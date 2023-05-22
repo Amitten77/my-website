@@ -106,12 +106,12 @@ const About = () => {
           classDes = classDes.substring(0, classDes.length-2)
           return (
             <div class="school">
-                <a href={school.url} target="_blank" rel="noopener noreferrer"><img src={school.img} height="50" width="50" class="school-icon"></img></a>
+                <a href={school.url} target="_blank" rel="noopener noreferrer" style={{display: 'grid'}} className="school-a"><img src={school.img} height="50" width="50" class="school-icon"></img></a>
                 <h2 class="school-comp" style={{gridColumn: 2}}>{school.name}</h2>
                 <h3 class="school-comp" style={{gridColumn: 2}}>{school.major} ({school.graduation})</h3>
                 <h4 class="school-comp" style={{gridColumn: 2}}>GPA: {school.gpa}</h4>
-                <p class="school-comp" style={{gridColumn: 2}}>{school.des}</p>
-                <p class="school-comp" style={{gridColumn: 2}}><span class="bold">Classes:</span> {classDes}</p>
+                <p class="school-comp des" style={{gridColumn: 2}}>{school.des}</p>
+                <p class="school-comp classes" style={{gridColumn: 2}}><span class="bold">Classes:</span> {classDes}</p>
             </div>
           )
         })}

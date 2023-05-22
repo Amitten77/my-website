@@ -76,21 +76,29 @@ const Nav = () => {
   const handleNav = () => {
     var image = document.querySelector('.menu');
     var src = image.data;
-    if (src == "menu") {
+    if (src == "x") {
       var navpage = document.querySelector('.nav-page');
       var overlay = document.querySelector('.overlay');
-      overlay.classList.add("blur-page");
-      navpage.classList.add("no-blur");
-      navpage.style.display = 'flex';
-      image.src = "icons/whitex.png";
-      image.data = "x";
-    } else {
-      var navpage = document.querySelector('.nav-page');
-      var overlay = document.querySelector('.overlay');
-      navpage.style.display = 'none';
+
+      navpage.classList.remove('appear-ani');
+      navpage.classList.add('disappear-ani');
+
+      navpage.classList.toggle('flex');
+
       image.src = "icons/menu.png";
       image.data = "menu";
       overlay.classList.remove("blur-page");
+    } else {
+      var navpage = document.querySelector('.nav-page');
+      var overlay = document.querySelector('.overlay');
+      overlay.classList.add("blur-page");
+
+      navpage.classList.remove('disappear-ani');
+      navpage.classList.add('appear-ani');
+
+      navpage.classList.toggle('flex');
+      image.src = "icons/whitex.png";
+      image.data = "x";
     }
   }
 
