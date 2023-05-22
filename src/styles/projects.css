@@ -256,15 +256,62 @@
         margin: 2rem;
         display: grid;
         grid-gap: 20px;
-        grid-template-columns: auto;
-        grid-template-rows: 10% 5% auto auto auto;
-        min-height: 32rem;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto;
         margin-top: 3rem;
         border-radius: 15px;
-        overflow-y: auto;
+        overflow-y: hidden;
         overflow-x: hidden;
         color: rgb(8, 8, 8);
-        min-height: 65rem;
+        min-height: fit-content;
+        padding-bottom: 3rem;
+    }
+
+    .full-project-title {
+        grid-column: 1;
+        grid-row: 1;
+        margin: 1rem;
+        text-align: center;
+    }
+    
+    .full-project-img-div {
+        text-align: center;
+        margin-top: 1em;
+    }
+    
+    .button-control {
+        margin-left: 45%;
+    }
+    .full-project-img {
+        grid-column: 1;
+        grid-row: 2;
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+    }
+    
+    .full-project-caption {
+        grid-column: 1;
+        display: block; /* allows the margin property to center the div */
+        margin: 0 auto; /* centers the div horizontally within the parent */
+        margin-bottom: 1rem;
+    }
+    
+    .full-project-date {
+        grid-column: 1;
+        grid-row: 2;
+        margin: 1rem;
+        text-align: center;
+    }
+    
+    .full-project-des {
+        grid-column: 1; 
+        grid-row: 4;
+        padding-top: 2rem;
+        margin-right: 3rem;
+        font-size: large;
     }
 
     .specific-tags {
@@ -287,5 +334,123 @@
         width: 100%;
         margin-left: 1rem;
         font-size: 14px;
+        margin-bottom: 3rem;
     }
+}
+
+@media (max-width: 587px) {
+    .full-project-comp {
+        background-color: lightblue;
+        margin: 2rem;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto auto;
+        margin-top: 3rem;
+        border-radius: 15px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        color: rgb(8, 8, 8);
+        min-height: fit-content;
+        padding-bottom: 3rem;
+    }
+
+    .full-project-title {
+        grid-column: 1;
+        grid-row: 1;
+        margin: 1rem;
+        text-align: center;
+    }
+    
+    .full-project-img-div {
+        text-align: center;
+        margin-top: 1em;
+    }
+    
+    .button-control {
+        margin-left: 45%;
+    }
+    .full-project-img {
+        grid-column: 1;
+        grid-row: 2;
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+    }
+    
+    .full-project-caption {
+        grid-column: 1;
+        display: block; /* allows the margin property to center the div */
+        margin: 0 auto; /* centers the div horizontally within the parent */
+        margin-bottom: 1rem;
+    }
+    
+    .full-project-date {
+        grid-column: 1;
+        grid-row: 2;
+        margin: 1rem;
+        text-align: center;
+    }
+    
+    .full-project-des {
+        grid-column: 1; 
+        grid-row: 4;
+        padding-top: 2rem;
+        margin-right: 3rem;
+        font-size: large;
+    }
+
+    .specific-tags {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .project-links {
+        grid-row: 6;
+        grid-column: 1;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 1rem;
+    }
+
+    .project-tags {
+        grid-row: 5;
+        grid-column: 1;
+        height: 1rem;
+        width: 100%;
+        margin-left: 1rem;
+        font-size: 14px;
+        margin-bottom: 3rem;
+    }
+
+}
+
+@media (max-width: 460px) {
+
+    .specific-tags {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .project-links {
+        grid-row: 6;
+        grid-column: 1;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .project-tags {
+        grid-row: 5;
+        grid-column: 1;
+        height: 1rem;
+        width: 100%;
+        margin-left: 1rem;
+        font-size: 14px;
+        margin-bottom: 3rem;
+    }
+
 }
