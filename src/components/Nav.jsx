@@ -111,11 +111,15 @@ const Nav = () => {
         <img src="icons/menu.png" height="40" width="40" className="menu" onClick={handleNav} data="menu"></img>
         <section class="nav-page">{links.map(link => {
           return (
-            <div>
+            <>
+            <div class="nav-page-item">
               <a href={"#" + link.label.toLowerCase()} onClick={handleNav}>{link.label}</a>
             </div>
+            <hr></hr>
+            </>
           )
-        })}</section>
+        })}
+        </section>
     </nav>
   )
 }

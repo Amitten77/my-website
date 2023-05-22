@@ -82,12 +82,12 @@
 
 
 .frameworks-header {
-    width: 70%;
+    width: 80%;
 }
 
 .frameworks-section {
     background-color: rgb(150, 150, 150);
-    width: 70%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -177,7 +177,7 @@
     border-radius: 20px;
     position: relative;
     font-size: 1.2vw;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 
 .school-icon {
@@ -280,3 +280,17 @@
 
 }
 
+
+@media (max-width: 472px) {
+    .about-image {
+        height: 350px;
+        width: 350px
+    }
+}
+
+@media (max-width: 401px) {
+    .about-image {
+        height: 300px;
+        width: 300px
+    }
+}
