@@ -46,7 +46,7 @@
             "imgid": "AutomatedvarImg",
             "capid": "AutomatedvarCap",
             "circleid": "AutomatedvarCircle",
-            "shortDes": "For my High School Senior Project, I created a <bold>fully automated<bold> system that can determine whether a soccer player is offsides from a video of play.",
+            "shortDes": "For my High School Senior Project, I created a <bold>fully automated<bold> system that can determine whether a soccer player is offsides from a video of play. I presented this work to <bold>1000+ students<bold> at tjSTAR",
             "longerDes": "Check out my Github Repository if you'd like to see a more detailed explanation on how I did this. But anyways, I first used <bold>yolov5's<bold> common object detection model to detect all the players. I then used <bold>Image Segmentation<bold> and <bold>k-means<bold> to grab the color of all the players' jerseys so that I could figure out the attackers and defenders. Next, I trained a <bold>custom model<bold> myself that can track the ball in the video so that I can find the exact moment the attacking player passes the ball. Finally, I use <bold>Hough-Line Transformations<bold> to find the goal-line so that my program can draw the offsides lines parallel to the goal-line.",
             "made": "8/2021 - 5/2022",
             "frameworks": [
