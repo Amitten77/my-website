@@ -10,8 +10,8 @@ const Contact = () => {
       <div class="contact-div">
         <section class="resume-section contact-section">
           <h2 class="contact-subheading">Judge Me &#9878;</h2>
-          <a href="AmitKResume5_31_2023.pdf" download="AmitKResume5_31_2023.pdf" class="download"><p class="download">Download My Resume</p></a>
-          <p>Last Updated: 5/31/2023</p>
+          <a href="AmitKResume6_6_2023.pdf" download="AmitKResume6_6_2023.pdf" class="download"><p class="download">Download My Resume</p></a>
+          <p>Last Updated: 6/06/2023</p>
         </section>
 
 
