@@ -150,7 +150,7 @@ const Projects = () => {
   return (
     <main class="projects-container" id="projects">
       <section class="featured-project-overall">
-        <h1 class="project-header">Featured Project &#127775;</h1>
+        <h1 class="project-header">Hackathon Winning Projects &#127775;</h1>
         <section class="featured-project">
           <ProjectComponent projectComponent={fp}></ProjectComponent>
         </section>

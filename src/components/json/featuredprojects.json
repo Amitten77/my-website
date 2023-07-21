@@ -1,6 +1,40 @@
 {
     "fp": [
         {
+            "title": "Crossy Tractor (Research Park Hackathon 2023 2nd Place Overall)",
+            "icon": "",
+            "img": "images/homePic.png",
+            "img1": "images/leaderboardPic.png",
+            "img2": "images/mapPic.png",
+            "caption": "Our home screen- in house graphics :)",
+            "caption1": "Our leaderboard of scores, deployed on MongoDB",
+            "caption2": "Gameplay Image!",
+            "imgid": "ResearchPark2023Img",
+            "capid": "ResearchPark2023Cap",
+            "circleid": "ResearchPark2023Circle",
+            "shortDes": "This hackathon was hosted for all interns at the 120+ different companies based in Research Park, Champaign. The theme was to create a retro video game that encapsulated our company's themes in 16 hours. So in a team of five, we created Crossy Tractor, a remake of Crossy Road with some twists.",
+            "longerDes": "So to play our game, you can use the WASD keypad to control a combine, and the goal is to collect the corn while avoiding the runaway animals. Run into the animals three times, and you're out! I created a <bold>live leaderboard<bold> for our application using <bold>MongoDB<bold> and connected it to our frontend using <bold>Express<bold>. I also created some of the game logic in <bold>Pixi.js<bold> such as defining player movement and organizing the graphics drawn by our graphics team.",
+            "made": "7/19/2023",
+            "frameworks": [
+                {
+                    "name": "Pixi.js"
+                },
+                {
+                    "name": "MongoDB"
+                },
+                {
+                    "name": "Typescript"
+                },
+                {
+                    "name": "Next.js"
+                }
+            ],
+            "website": "https://crossytractor-production.up.railway.app/",
+            "github": "https://github.com/Amitten77/CrossyTractor",
+            "color": "#F9B971",
+            "tagcolor": "#FBD1A2"
+        },
+        {
             "title": "Garbage Classification Model (HackIllinois 2023 Winner)",
             "icon": "",
             "img": "images/webapp.png",
