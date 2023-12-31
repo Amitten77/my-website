@@ -32,7 +32,7 @@ const About = () => {
             <div class="aboutme-des">
               <p>I’m Amit Krishnaiyer, a student at the University of Illinois Urbana-Champaign&#128312;&#128313;. I’m expecting to graduate in 2025. I've been programming for a few years, and I've always been an AI/ML enthusiast, so some of my first serious projects were AIs for games like Tetris, Othello, and Word Hunt. But since I've come to college, I've been exploring a variety of different fields.</p>
               <br></br>
-              <p>I've been exploring Blockchain/Smart Contracts and its implications in providing stable currency to those globally. Additionally, I've learned full-stack development to deploy my projects on the internet for everyone to use. And this summer, I'll also be working at John Deere &#128668; in a Data Science Position to help make farming more efficient and get more people fed. Ultimately, I see programming as a tool that could solve many of the global problems we face today, and I want to become a master of that tool. I hope you enjoy my website, and I'm more than happy to connect with you too!</p>
+              <p>I've been exploring Blockchain/Smart Contracts and its implications in providing stable currency to those globally. Additionally, I've learned full-stack development to deploy my projects on the internet for everyone to use. Ultimately, I see programming as a tool that could solve many of the global problems we face today, and I want to become a master of that tool. I hope you enjoy my website, and I'm more than happy to connect with you too!</p>
               <br></br>
               <p>Outside of programming I also enjoy astronomy &#127776;, lifting &#127947;, and Nintendo Games &#127918;.</p>
             </div>
